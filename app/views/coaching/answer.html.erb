@@ -1,0 +1,20 @@
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Indie+Flower&display=swap" rel="stylesheet">
+<div class = "banner">
+<h1>Stupid Coaching</h1>
+</div>
+
+<div class="question_container">
+  <!-- display my question -->
+  <p><%= @question %></p>
+  <p id = "you"> -You</p>
+
+</div>
+<!-- display the answer -->
+<div class="answer_container">
+  <p><%= @answer %></p>
+  <p id = "coach"> -Your coach</p>
+</div>
+
+<div class="Footer">
+<%= link_to "Ask your coach a new question", ask_path %>
+</div>

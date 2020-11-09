@@ -1,0 +1,38 @@
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+ .banner {
+   background: #3797a4;
+   h1 {
+     font-size: 50px;
+     font-family: 'Cinzel', serif;
+   }
+ }
+
+  a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+.answer_container {
+  background-color: #8bcdcd;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px
+}
+
+.question_container{
+  background-color: #8bcdcd;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px
+
+}
+
+.Footer {
+  background-color: #f8e4b7 ;
+
+}
